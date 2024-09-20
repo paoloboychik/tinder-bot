@@ -193,9 +193,9 @@ dialog.count = 0
 dialog.user = {}
 
 chatgpt = ChatGptService(
-    token="gpt:1EprHW2fyrbq2MNxmQbRJFkblB3TJuC8zKn6VeGdT0tnEKbw")
+    token="")
 app = ApplicationBuilder().token(
-    "7249602521:AAFyYdHPohgwfSZqqKdH_3Es0GsLlIp9JmY").build()
+    "").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("gpt", gpt))
